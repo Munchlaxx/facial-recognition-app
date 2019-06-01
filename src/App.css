@@ -15,3 +15,37 @@
   left: 0;
   z-index: -1;
 }
+.model-container-tag-list-column {
+    margin-top: 25px;
+}
+
+.model-container-tag-list {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.tag-block {
+    position: relative;
+}
+
+.demo-container .predicted-concept-name, .demo-container .user-feedback-concept-name {
+    z-index: 1;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 12px 0;
+    letter-spacing: .2px;
+    color: #1b2634;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

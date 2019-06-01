@@ -8,3 +8,7 @@ body {
 button{
 	cursor: pointer;
 }
+
+img {
+  border-radius: 8px;
+}
